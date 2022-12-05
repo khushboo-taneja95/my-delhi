@@ -1,0 +1,49 @@
+{"delhi":[
+  {
+    "source": "Kalka ji",
+    "destination": "Botanical Garden",
+    "color":"#FF00FF"
+  },
+  {
+    "source": "ITO",
+    "destination": "Badarpur",
+    "color":" #551a8b "
+  },
+  {
+    "source": "New delhi",
+    "destination": "Dwarka Mor",
+    "color":"#FF8C00"
+  },
+  {
+    "source": "Dilshad Garden ",
+    "destination": "Rithala",
+    "color":"#E52B50"
+  },
+  {
+     "source": "Mundka",
+    "destination": "Kirtinagar",
+    "color":"#03C03C"
+  },
+  {
+    "source": "ITO",
+    "destination": "Badarpur",
+    "color":" #551a8b "
+  },
+  {
+    "source": "Huda City Centre ",
+    "destination": "Rohini ",
+    "color":"#FFEF00"
+  },
+  {
+   "source": "Kashmere Gate",
+    "destination": "Escorts Mujesar",
+    "color":"#0000FF"
+  },
+  {
+     "source": "Huda City Centre",
+    "destination": "Jangpura",
+    "color":"#FFFF00"
+  }
+]
+}
+  

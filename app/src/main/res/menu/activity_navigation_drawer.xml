@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_Feed"
+            android:icon="@mipmap/feeed"
+            android:title="Feed" />
+        <item
+            android:id="@+id/nav_Fort"
+            android:icon="@mipmap/fort"
+            android:title="Fort" />
+        <item
+            android:id="@+id/nav_Temple"
+            android:icon="@mipmap/temple"
+            android:title="Temple" />
+        <item
+            android:id="@+id/nav_park"
+            android:icon="@mipmap/park"
+            android:title="Park" />
+        <item
+            android:id="@+id/nav_Delhimetro"
+            android:icon="@mipmap/metrostation"
+            android:title="Delhi Metro" />
+        <item
+            android:id="@+id/nav_Delhi_transport"
+            android:icon="@mipmap/arrows"
+            android:title="Delhi Transport Corporation" />
+        <item
+            android:id="@+id/nav_PoliceStation"
+            android:icon="@mipmap/police"
+            android:title="Police Station" />
+        <item
+            android:id="@+id/nav_Fire"
+            android:icon="@drawable/fire"
+            android:title="Fire Station" />
+        <item
+            android:id="@+id/nav_Hospital"
+            android:icon="@drawable/ho"
+            android:title="Hospital" />
+        <item
+            android:id="@+id/nav_listMetro"
+            android:icon="@drawable/metro"
+            android:title="List Metro" />
+
+
+    </group>
+
+
+
+</menu>

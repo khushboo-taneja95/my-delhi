@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:background="@color/Purple"/>
+
+
+  <ImageView
+      android:id="@+id/back"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="18dp"
+      android:layout_marginStart="15dp"
+      android:src="@drawable/le" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical"
+      android:orientation="vertical"
+      android:id="@+id/imgicon"/>
+
+  <ImageView
+      android:id="@+id/image"
+      android:layout_width="48dp"
+      android:layout_height="48dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="21dp"
+      android:layout_marginTop="68dp"
+      android:background="@mipmap/fier" />
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/image"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="87dp"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Badarpur fire station"
+        android:textColor="@color/Black"
+        android:textSize="26dp" />
+
+
+  </LinearLayout>
+
+
+
+</RelativeLayout>

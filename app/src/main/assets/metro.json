@@ -1,0 +1,70 @@
+{"metro":[
+  {
+    "source":"Badarpur",
+    "destination":"Mandi House",
+    "color":"#9400D3"
+  },
+  {
+    "source":"Badarpur",
+    "destination":"ITO",
+    "color":"#0000FF"
+  },
+  {
+    "source":"Mukundpur",
+    "destination":"Shiv Vihar",
+    "color":"#FFC0CB"
+  },
+  {
+    "source": "Mundka",
+    "destination": "Kirtinagar",
+    "color":"#32CD32"
+  },
+  {
+    "source":"Huda City Centre ",
+    "destination":"Rohini",
+    "color":"#FFEF00"
+  },
+  {
+    "source":"Kashmere Gate",
+    "destination":"Escorts Mujesar",
+    "color":"#9400D3"
+  },
+  {
+    "source": "Dilshad Garden ",
+    "destination":"Rithala",
+    "color":"#E52B50"
+  },
+  {
+     "source": "New delhi",
+    "destination":"Dwarka",
+    "color":"#FF8C00"
+  },
+  {
+    "source":"Badarpur",
+    "destination":"ITO",
+    "color":"#0000FF"
+  },
+  {
+    "source":"Huda City Centre ",
+    "destination":"Rohini",
+    "color":"#FFEF00"
+  },
+  {
+    "source": "Dilshad Garden ",
+    "destination":"Rithala",
+    "color":"#E52B50"
+  },
+  {
+    "source": "Kalka ji",
+    "destination":"Botanical Garden",
+    "color":"#FF00FF"
+  },
+  {
+    "source": "Huda City Centre",
+    "destination": "Jangpura",
+    "color":"#FFFF00"
+  }
+
+]
+}
+  

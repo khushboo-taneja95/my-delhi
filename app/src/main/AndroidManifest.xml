@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.letsdowebsite.mydelhi">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="My Delhi"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.letsdowebsite.mydelhi.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="108006333384105" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.letsdowebsite.mydelhi.Login" />
+        <activity android:name="com.letsdowebsite.mydelhi.MainActivity"/>
+        <activity
+            android:name="com.letsdowebsite.mydelhi.dashboardActivity"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.letsdowebsite.mydelhi.list_view" />
+        <activity android:name="com.letsdowebsite.mydelhi.temple" />
+        <activity android:name="com.letsdowebsite.mydelhi.metro" />
+        <activity android:name="com.letsdowebsite.mydelhi.metro1" />
+        <activity android:name="com.letsdowebsite.mydelhi.Policestation" />
+        <activity android:name="com.letsdowebsite.mydelhi.feed" />
+        <activity android:name="com.letsdowebsite.mydelhi.Firestation" />
+        <activity android:name="com.letsdowebsite.mydelhi.hospital" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:taskAffinity=".FacebookActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider108006333384105"
+            android:exported="true">
+
+
+        </provider>
+
+    </application>
+    <!--<meta-data android:name="com.facebook.sdk.ApplicationId"
+        android:value="194077067900132"/>-->
+
+
+
+</manifest>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/imageicon"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/Black"/>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+            <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSource"
+                        android:text="Badarpur"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15sp"/>
+
+                    <ImageView
+                        android:layout_width="52dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@mipmap/arrow"
+                        android:id="@+id/img"
+
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2.9"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:text="Mandi house"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:id="@+id/tvDistanction"
+                        android:textSize="15sp"
+                       />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/tvColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@color/Purple" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
